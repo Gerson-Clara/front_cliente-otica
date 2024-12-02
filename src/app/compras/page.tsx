@@ -47,7 +47,7 @@ export default function Compras() {
 
   return (
     <section className="max-w-7xl mx-auto">
-      <h1 className="mb-6 mt-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+      <h1 className="mb-6 mt-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-black">
         Listagem de <span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Minhas compras</span></h1>
 
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">

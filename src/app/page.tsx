@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
       </section>
-      <Toaster position="top-right" richColors />
+      <Toaster position="bottom-left" richColors />
     </main>
   );
 }
