@@ -1,7 +1,7 @@
 import { OculosI } from "./oculos"
 import { ClienteI } from "./clientes"
 
-export interface ComprasI {
+export interface CompraI {
   id: number
   clienteId: string
   cliente: ClienteI
