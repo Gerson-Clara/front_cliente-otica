@@ -1,3 +1,4 @@
+import { AdminI } from "./admins"
 import { MarcaI } from "./marcas"
 
 export interface OculosI {
@@ -12,6 +13,5 @@ export interface OculosI {
   marca: MarcaI
   marcaId: number
   modelo: string
-  createdAt: Date
-  updatedAt: Date
+  admin: AdminI
 }

@@ -1,12 +1,13 @@
-import { OculosI } from "./oculos";
+import { OculosI } from "./oculos"
+import { ClienteI } from "./clientes"
 
-export interface CompraI {
-    id: number
-    clienteId: string
-    oculosId: number
-    oculos: OculosI
-    endereco: string
-    resposta: string | null
-    createdAt: string
-    updatedAt: string | null
+export interface ComprasI {
+  id: number
+  clienteId: string
+  cliente: ClienteI
+  OculosId: number
+  oculos: OculosI
+  endereco: string
+  createdAt: string
+  updatedAt: string | null
 }
